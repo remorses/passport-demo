@@ -91,4 +91,4 @@ app.get('/profile',
     res.render('profile', { user: req.user });
   });
 
-app.listen(process.env['PORT'] || 8080);
+app.listen('0.0.0.0:8080');
